@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Faradars HTML learning - Video 9</title>
+	</head>
+	<body>
+		<form action="server.php" method="get">
+			<fieldset>
+				<legend>Personal Information</legend>
+				First Name : <input type="text" id="txtFirstName" name="txtFirstName" />
+				<input type="button" value="Click Me" /><br />
+				<input type="checkbox" name="checkRem" value="rm" />Remember Me<br />
+				<input type="radio" name="rdbGender" value="F" />Female
+				<input type="radio" name="rdbGender" value="M" />Male<br />
+				Password<input type="password" id="pwdPass" name="pwdPass" /><br />
+				<textarea cols="30" rows="10" id="txtData" name="txtData"></textarea><br />
+				<select id="selectedCity" name="selectedCity">>
+					<option value="1">Tehran</option>
+					<option value="2">Isfahan</option>
+					<option value="3">Rasht</option>
+					<option value="4">Yazd</option>
+				</select><br />
+				<input type="text" id="txtBrowser" list="browsers" />
+				<datalist id="browsers">
+					<option value="Chrome" />
+					<option value="Mozilla" />
+					<option value="Opera" />
+				</datalist><br />
+				<input type="number" min="1" max="10" /><br />
+				<input type="color" /><br />
+				<input type="date" /><br />
+				<input type="range" /><br />
+				<input type="reset" value="Reset" />
+				<input type="submit" value="Send" /><br />
+			</fieldset>
+		</form>
+	</body>
+</html>

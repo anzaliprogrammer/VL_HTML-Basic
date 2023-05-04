@@ -1,0 +1,19 @@
+p
+{
+	background-color:yellow;
+	color:red;
+	font-size:48px !important;
+}
+
+.p1
+{
+	background-color:lime;
+	color:red;
+	font-size:8px;
+}
+
+#p1
+{
+	color:cyan;
+	font-size:4px;
+}
